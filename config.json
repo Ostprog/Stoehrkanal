@@ -2,8 +2,8 @@
   "type": "network",
   "version": "1.0",
   "data": "data.json",
-  "logo": "https://i0.wp.com/ostprog.de/wp-content/uploads/2020/08/OSTPROG_LOGO_aktuell_marble.png?fit=350%2C100&ssl=1"{
-    "file": "",
+  "logo": {
+    "file": "https://i0.wp.com/ostprog.de/wp-content/uploads/2020/08/OSTPROG_LOGO_aktuell_marble.png?fit\u003d350%2C100\u0026ssl\u003d1",
     "link": "https://github.com/Ostprog/Stoehrkanal",
     "text": "Gunnar Hamann (Ostprog.de)"
   },
@@ -18,13 +18,13 @@
     "nodeLabel": "Account"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "Typ",
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "Typ"
   },
   "sigma": {
     "drawingProperties": {
@@ -43,7 +43,7 @@
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
       "minNodeSize": 1,
-      "maxNodeSize": 15
+      "maxNodeSize": 7
     },
     "mouseProperties": {
       "maxRatio": 20,
