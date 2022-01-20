@@ -4,8 +4,8 @@
   "data": "data.json",
   "logo": {
     "file": "",
-    "link": "",
-    "text": "Gunnar Hamann"
+    "link": "https://github.com/Ostprog/Stoehrkanal",
+    "text": "Gunnar Hamann (Ostprog.de)"
   },
   "text": {
     "more": "",
@@ -13,12 +13,12 @@
     "title": "Klaus Stöhr | Twitter-Following"
   },
   "legend": {
-    "edgeLabel": "Klassifizierung",
-    "colorLabel": "",
-    "nodeLabel": "Klassifizierung"
+    "edgeLabel": "Klaus Stöhr folgt",
+    "colorLabel": "Typ",
+    "nodeLabel": "Account"
   },
   "features": {
-    "search": true,
+    "search": false,
     "groupSelectorAttribute": "Typ",
     "hoverBehavior": "dim"
   },
